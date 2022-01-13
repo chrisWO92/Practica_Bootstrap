@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-1",
+  "version": "1.0.0",
+  "description": "Aprendiendo a usar Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content index.html -o sass/reducido.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisWO92/bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisWO92/bootstrap/issues"
+  },
+  "homepage": "https://github.com/chrisWO92/bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
