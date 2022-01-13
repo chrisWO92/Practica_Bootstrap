@@ -1,0 +1,23 @@
+
+$font-family-sans-serif: 'Roboto Condensed', sans-serif;
+
+$primary:       #733FC8;
+$secondary:     #EDF2F8;
+$success:       #495568;
+$dark:          #18202D;
+
+@media (min-width: 992px) {
+    .alto-100 {
+        height: 100vh;
+    }
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px
+) !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
